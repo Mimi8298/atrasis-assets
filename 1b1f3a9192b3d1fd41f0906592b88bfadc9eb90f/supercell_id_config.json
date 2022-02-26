@@ -1,0 +1,14 @@
+{
+  "Enabled": true,
+  "ScFileName": "sc/supercell_id.sc",
+  "UseNative": true,
+  "Game": "magic",
+  "PreloadingEnabled":  true,
+  "InternalDomains": ["www.google.com"],
+  "EnabledCountries": ["ALL"],
+  "DisabledCountries": [],
+  "UseNativeCountries": ["ALL"],
+  "UseSocialCountries": ["ALL"],
+  "UseNativeFastSwitch":true,
+  "EnableStoreAndGifts":true
+}
