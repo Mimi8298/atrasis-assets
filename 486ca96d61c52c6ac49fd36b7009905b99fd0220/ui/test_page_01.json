@@ -1,0 +1,46 @@
+{
+	"root":{
+		"comps":[{"_t":"Canvas","resource_mc":"sc/ui/repair_building | 49e9c85e-5cd0-412c-811b-3a3942b7ac14","code_class":"UiTestPage"},{"_t":"Layout","x":{},"y":{}}],
+		"binds":[
+			{"n":"close_button","t":3,"v":"_clip/close_button"},
+			{"n":"green_button","t":3,"v":"_clip/repair_button"},
+			{"n":"title_text","t":3,"v":"_clip/icon"},
+			{"n":"green_button_text","t":3,"v":"_clip/text"},
+			{"n":"hammer_icon","t":3,"v":"hammer_icon"}
+		],
+		"children":[
+			{
+				"name":"_clip",
+				"comps":[{"_t":"MovieClip"}],
+				"children":[
+					{
+						"name":"close_button",
+						"comps":[{"_t":"Button"}],
+						"children":[
+							{"name":"_clip","comps":[{"_t":"MovieClip"}]}
+						]
+					},
+					{
+						"name":"repair_button",
+						"comps":[{"_t":"Button"}],
+						"children":[
+							{
+								"name":"_clip",
+								"comps":[{"_t":"MovieClip"}],
+								"children":[
+									{"name":"Text","comps":[{"_t":"TextField"}]}
+								]
+							}
+						]
+					},
+					{"name":"text","comps":[{"_t":"TextField"}]},
+					{"name":"icon","comps":[{"_t":"TextField"}]}
+				]
+			},
+			{
+				"name":"hammer_icon",
+				"comps":[{"_t":"MovieClip","resource_mc":"sc/ui/button_repair | 49e9c85e-f0e5-4140-b1c7-dc52d5b15ab7"},{"_t":"Layout","x":{"pivot":1},"y":{"pivot":1}}]
+			}
+		]
+	}
+}
